@@ -3,7 +3,7 @@ from tgan.model import TGANModel
 
 data = pd.read_csv('examples/data/hcv.csv')
 
-continuous_columns = [0,2,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]
+continuous_columns = [0,2,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]
 
 tgan = TGANModel(
     continuous_columns,
