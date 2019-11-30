@@ -9,7 +9,7 @@ tgan = TGANModel(
     continuous_columns,
     output='output',
     gpu=None,
-    max_epoch=100,
+    max_epoch=10,
     steps_per_epoch=10000,
     save_checkpoints=True,
     restore_session=True,
