@@ -61,7 +61,10 @@ The output of **TGAN** is a table of sampled data with the same columns as the i
 many rows as requested.
 
 ## Dataset
-This project uses [Hepatitis C Virus (HCV) for Egyptian patients Data Set](https://archive.ics.uci.edu/ml/datasets/Hepatitis+C+Virus+%28HCV%29+for+Egyptian+patients) that is being hosted by the UCI Machine Learning Repository.
+This project uses [Hepatitis C Virus (HCV) for Egyptian patients Data Set](https://archive.ics.uci.edu/ml/datasets/Hepatitis+C+Virus+%28HCV%29+for+Egyptian+patients) that is being hosted by the UCI Machine Learning Repository.  
+You can also download datasets that we have ran through cleaning.  
+[Clean HCV data](https://drive.google.com/file/d/16y24a7n-IF8Lqq16lgfJj7K8Uy5Pq3TR/view?usp=sharing)  
+[Discretized HCV data](https://drive.google.com/file/d/1XjjUoHOwD71hypDzLTtf0j4HOZPCjDVg/view?usp=sharing)
 
 # Quickstart
 
@@ -70,7 +73,12 @@ python train.py
 ```
 
 Before running the training script, make sure your original data path is placed in a correct location.  
-Please refer to the section right below to modify parameters of the training model.
+Please refer to the section right below to modify parameters of the training model.  
+If you would like to use pre-trained models, there are 3 different models.
+[Model 1](https://drive.google.com/file/d/1jxWPmmzmlWkJW2txgaN-93cB22GZK0Ob/view?usp=sharing)  
+[Model 2](https://drive.google.com/file/d/1ef6ZUkWwrt9TxWV9Ze-Dz5NXFNXLVTQ6/view?usp=sharing)  
+[Model 3](https://drive.google.com/file/d/1FpgRx_JKlP3yuiZLFfnyrBzLDjngJOeH/view?usp=sharing)  
+[Model Descriptions](https://drive.google.com/file/d/1BzIwGYd9dnZeLEd0c-X3EZo1zrlp4bcL/view?usp=sharing)
 
 # Model Parameters
 
@@ -106,6 +114,13 @@ python generate.py --model [Model Name] --num_samples [Number of samples to gene
 
 e.g.) python generate.py --model model_x --num_samples 1400 --output_path examples/model_x.csv
 ```
+
+Using aforementioned models, these are generated synthetic data
+[Synthetic Data with Model 1](https://drive.google.com/file/d/1BNld7dheIDWQ-YRIF9LAFQ391osmp0aN/view?usp=sharing)  
+[Synthetic Data with Model 2](https://drive.google.com/file/d/1Uzd1ecmCxhB0okAzRDUdhIv9z4dSk6hn/view?usp=sharing)  
+[Synthetic Data with Model 3](https://drive.google.com/file/d/1b0YBrQsonLPHwJJppvb3tJdWki--J1c7/view?usp=sharing)  
+
+Please refer to [distribution notebook](distribution.ipynb) for how each model produces a different distribtuion.
 
 # Research
 
