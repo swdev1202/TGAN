@@ -100,6 +100,13 @@ If you want to change the default behavior of `TGANModel`, such as as different 
 * optimizer (`str`, default=`AdamOptimizer`): Name of the optimizer to use during `fit`, possible
   values are: [`GradientDescentOptimizer`, `AdamOptimizer`, `AdadeltaOptimizer`].
 
+# Data Generation
+```
+python generate.py --model [Model Name] --num_samples [Number of samples to generate] --output_path [Path to save the resulting csv file]
+
+e.g.) python generate.py --model model_x --num_samples 1400 --output_path examples/model_x.csv
+```
+
 # Research
 
 The first **TAGN** version was built as the supporting software for the [Synthesizing Tabular Data using Generative Adversarial Networks](https://arxiv.org/pdf/1811.11264.pdf) paper by Lei Xu and Kalyan Veeramachaneni.
