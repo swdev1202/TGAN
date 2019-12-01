@@ -144,8 +144,5 @@ docs/api/
 # Vim
 .*.swp
 
-# model files
-models/
-
 # output files
 output*/
