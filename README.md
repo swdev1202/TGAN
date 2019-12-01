@@ -74,7 +74,7 @@ python train.py
 
 Before running the training script, make sure your original data path is placed in a correct location.  
 Please refer to the section right below to modify parameters of the training model.  
-If you would like to use pre-trained models, there are 3 different models.
+If you would like to use pre-trained models, there are 3 different models.  
 [Model 1](https://drive.google.com/file/d/1jxWPmmzmlWkJW2txgaN-93cB22GZK0Ob/view?usp=sharing)  
 [Model 2](https://drive.google.com/file/d/1ef6ZUkWwrt9TxWV9Ze-Dz5NXFNXLVTQ6/view?usp=sharing)  
 [Model 3](https://drive.google.com/file/d/1FpgRx_JKlP3yuiZLFfnyrBzLDjngJOeH/view?usp=sharing)  
@@ -115,7 +115,7 @@ python generate.py --model [Model Name] --num_samples [Number of samples to gene
 e.g.) python generate.py --model model_x --num_samples 1400 --output_path examples/model_x.csv
 ```
 
-Using aforementioned models, these are generated synthetic data
+Using aforementioned models, these are generated synthetic data  
 [Synthetic Data with Model 1](https://drive.google.com/file/d/1BNld7dheIDWQ-YRIF9LAFQ391osmp0aN/view?usp=sharing)  
 [Synthetic Data with Model 2](https://drive.google.com/file/d/1Uzd1ecmCxhB0okAzRDUdhIv9z4dSk6hn/view?usp=sharing)  
 [Synthetic Data with Model 3](https://drive.google.com/file/d/1b0YBrQsonLPHwJJppvb3tJdWki--J1c7/view?usp=sharing)  
